@@ -6,16 +6,15 @@ public class vectores {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Ingrese tamaño arreglo");
-        int length = myObj.nextInt();
-
-        double[] num = new double[length];
+        int length;
+        length = myObj.nextInt();
+        double num[length];
 
 
         for (int i = 0; i < length; i++) {
             System.out.println("Ingrese numero para la posición "+i+": ");
-            double nume = myObj.nextDouble();
-            num[i] = nume;
-            System.out.println("num["+i+"]:  "+num[i]);
+            int nume = myObj.nextInt();
+            System.out.println("num["+i+"]: "+num[i]);
         }
         System.out.println("\nArray: ");
         for (int i = 0; i < num.length; i++) {
