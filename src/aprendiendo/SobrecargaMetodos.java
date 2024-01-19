@@ -9,11 +9,9 @@ public class SobrecargaMetodos {
     public void caminar(){
 
     }
+    //Los siguientes métodos son idénticos, esto provoca un error
     public void caminar(String nombre){
 
     }
-
-    public static void main(String[] args) {
-        System.out.println("Holaaa");
-    }
 }
+
