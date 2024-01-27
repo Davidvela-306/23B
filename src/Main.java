@@ -2,13 +2,11 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                JFrame frame = new interfaz();
-                frame.setSize(400, 400);
-                frame.setVisible(true);
-            }
+        SwingUtilities.invokeLater(()->{
+            practica1 objeto1 =new practica1();
+            objeto1.iniciar();
+
         });
     }
+
 }
